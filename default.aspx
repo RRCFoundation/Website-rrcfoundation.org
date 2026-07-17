@@ -1,4 +1,4 @@
-<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.vb" Inherits="NorthProfessionals.com.About" %>
+<%@ Page Title="About" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="default.aspx.vb" Inherits="RRCFoundation._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
