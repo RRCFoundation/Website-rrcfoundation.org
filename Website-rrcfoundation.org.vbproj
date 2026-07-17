@@ -17,4 +17,14 @@
     </Content>
   </ItemGroup>
 
+  <!-- Classic ASP.NET (System.Web) only probes /bin for private assemblies;
+       dotnet publish otherwise drops the compiled assembly at the publish root. -->
+  <Target Name="MoveOutputAssemblyToBin" AfterTargets="Publish">
+    <ItemGroup>
+      <_BinOutputFiles Include="$(PublishDir)$(AssemblyName).*" />
+    </ItemGroup>
+    <MakeDir Directories="$(PublishDir)bin" Condition="!Exists('$(PublishDir)bin')" />
+    <Move SourceFiles="@(_BinOutputFiles)" DestinationFolder="$(PublishDir)bin" />
+  </Target>
+
 </Project>
