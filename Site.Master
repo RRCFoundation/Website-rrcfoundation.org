@@ -4,15 +4,67 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Redmond Rotary Club Foundation is a 501(c)(3) nonprofit that funds grants, scholarships, and community service in Redmond, WA and around the world." />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server">Redmond Rotary Club Foundation</asp:ContentPlaceHolder></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="site.css" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <h1>RRC Foundation</h1>
-        </div>
-        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+        <a class="skip-link" href="#main-content">Skip to main content</a>
+
+        <header class="site-header">
+            <div class="wrap site-header__bar">
+                <a class="brand" href="./">
+                    <span class="brand__wheel" aria-hidden="true"></span>
+                    <span class="brand__text">
+                        <span class="brand__name">Redmond Rotary Club Foundation</span>
+                        <span class="brand__tag">Service Above Self &mdash; Redmond, WA</span>
+                    </span>
+                </a>
+                <nav class="site-nav" aria-label="Primary">
+                    <a href="#about">About</a>
+                    <a href="#focus">Focus Areas</a>
+                    <a href="#what-we-do">What We Do</a>
+                    <a href="#board">Board</a>
+                    <a href="#contact">Contact</a>
+                    <a class="btn btn--gold site-nav__cta" href="#donate">Donate</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+
+        <footer class="site-footer">
+            <div class="wrap site-footer__grid">
+                <div>
+                    <span class="brand__wheel brand__wheel--footer" aria-hidden="true"></span>
+                    <p class="site-footer__org">Redmond Rotary Club Foundation</p>
+                    <p>A 501(c)(3) nonprofit organization owned by the <a href="https://redmondrotary.org" target="_blank" rel="noopener">Rotary Club of Redmond</a>.</p>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p><a href="mailto:volunteers@rrcfoundation.org">volunteers@rrcfoundation.org</a></p>
+                    <p><a href="https://redmondrotary.org" target="_blank" rel="noopener">redmondrotary.org</a></p>
+                </div>
+                <div>
+                    <h3>Support the Foundation</h3>
+                    <p><a class="btn btn--gold" href="https://secure.etransfer.com/eft/flexblockcode/donation1.cfm?d2org=RCRFoundation&amp;d2tool=donate" target="_blank" rel="noopener">Donate Now</a></p>
+                </div>
+            </div>
+            <div class="wrap site-footer__legal">
+                <p>&copy; <%: DateTime.Now.Year %> Redmond Rotary Club Foundation. All-volunteer, no paid staff &mdash; nearly every dollar raised goes directly to grants, scholarships, and service projects.</p>
+                <p>Redmond Rotary Club Foundation is an independent 501(c)(3) affiliated with Rotary International and is not operated by Rotary International or The Rotary Foundation.</p>
+            </div>
+        </footer>
+
     </form>
 </body>
 </html>
