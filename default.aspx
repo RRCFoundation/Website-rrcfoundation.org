@@ -26,7 +26,7 @@
                 <p>
                     The Redmond Rotary Club Foundation is a 501(c)(3) charitable organization owned by the
                     Rotary Club of Redmond. It exists to organize and fund the grants, scholarships, and
-                    service projects that carry out the Rotary&rsquo;s motto of <em>Service Above Self</em> and its Seven Areas of Focus &mdash;
+                    service projects that carry out Rotary&rsquo;s motto of <em>Service Above Self</em> and its <em>Seven Areas of Focus</em> &mdash;
                     both locally in Redmond, WA and internationally.
                 </p>
                 <p>
@@ -62,9 +62,10 @@
             <h2><span class="section__kicker">What We Do</span>Grants, Scholarships &amp; Volunteer Service</h2>
             <div class="cards">
                 <div class="card">
+                    <img class="card__logo" src="StinkySpoke-Logo-Color.svg" alt="Stinky Spoke" />
                     <h3>Stinky Spoke</h3>
                     <p>
-                        Our signature fundraiser: an annual mountain bike, gravel bike, and e-bike event
+                        Our annual 20 mile mountain bike, gravel bike, and e-bike event
                         held during the worst &mdash; okay, stinkiest &mdash; weather of the year at the
                         Redmond Senior &amp; Community Center. Proceeds support local and global
                         humanitarian and educational causes.
@@ -73,23 +74,26 @@
                 <div class="card">
                     <h3>Scholarships</h3>
                     <p>
-                        The Foundation funds scholarships for local students, helping open doors to
-                        continuing education for members of the Redmond community.
+                        The Foundation funds character-based scholarships for local Redmond High School
+                        students, helping open doors to continuing education for deserving members of
+                        the Redmond community.
                     </p>
                 </div>
                 <div class="card">
-                    <h3>Clean Water Abroad</h3>
+                    <h3>Underdeveloped World Support</h3>
                     <p>
-                        Past grants have supported the Ethiopia Water Project with World Vision, bringing
-                        clean water and sanitation to communities in need.
+                        Past and present projects include installation of water and sanitation systems
+                        to Ethiopian villages, delivery of basic high school education to schools with
+                        no reliable power or any Internet service in the third world, microloans and
+                        other impactful investments.
                     </p>
                 </div>
                 <div class="card">
                     <h3>Community Partnerships</h3>
                     <p>
-                        Locally, volunteers have supported Hopelink&rsquo;s Thanksgiving food drive, led an
-                        invasive species removal project at Grass Lawn Park, and partnered with the City of
-                        Redmond on park projects and citywide events.
+                        Volunteers support food drives, invasive species removal projects at Redmond
+                        parks, therapeutic services for area residents with special needs, and other
+                        types of activities that make life better for the community.
                     </p>
                 </div>
             </div>
@@ -101,22 +105,27 @@
             <h2><span class="section__kicker">2026&ndash;2027 Rotary Year</span>Board of Directors &amp; Officers</h2>
             <ul class="board-grid">
                 <li class="board-card">
+                    <img class="board-card__photo" src="DeanaHale-Headshot-thumb.jpg" alt="Deana Hale" />
                     <p class="board-card__name">Deana Hale</p>
                     <p class="board-card__role">President</p>
                 </li>
                 <li class="board-card">
+                    <img class="board-card__photo" src="DavidNorth-Headshot-thumb.jpg" alt="David North" />
                     <p class="board-card__name">David North</p>
                     <p class="board-card__role">Vice President</p>
                 </li>
                 <li class="board-card">
+                    <img class="board-card__photo" src="RichardMay-Headshot-thumb.jpg" alt="Richard May" />
                     <p class="board-card__name">Richard May</p>
                     <p class="board-card__role">Treasurer</p>
                 </li>
                 <li class="board-card">
+                    <img class="board-card__photo" src="JillTracy-Headshot-thumb.jpg" alt="Jill Tracy" />
                     <p class="board-card__name">Jill Tracy</p>
                     <p class="board-card__role">Board Member</p>
                 </li>
                 <li class="board-card">
+                    <img class="board-card__photo" src="PaulaDelGiudice-Headshot-thumb.jpg" alt="Paula Del Giudice" />
                     <p class="board-card__name">Paula Del Giudice</p>
                     <p class="board-card__role">Board Member</p>
                 </li>
@@ -127,7 +136,7 @@
 
     <section id="donate" class="section donate">
         <div class="wrap donate__inner">
-            <h2>Your Donation Goes to Work &mdash; Not Overhead</h2>
+            <h2>Your Donation Goes to Work &mdash; Not to Overhead</h2>
             <p>
                 With no paid staff and an all-volunteer model, the Redmond Rotary Club Foundation keeps costs
                 minimal so your gift makes the biggest possible difference, in Redmond and around the world.
@@ -139,11 +148,24 @@
     <section id="contact" class="section">
         <div class="wrap contact">
             <h2><span class="section__kicker">Get Involved</span>Volunteer or Ask a Question</h2>
-            <p>
-                Want to volunteer alongside Rotary Club of Redmond members, or learn more about a grant or
-                scholarship? We&rsquo;d love to hear from you.
-            </p>
-            <p class="contact__email"><a href="mailto:volunteers@rrcfoundation.org">volunteers@rrcfoundation.org</a></p>
+            <div class="grid-2">
+                <div>
+                    <h3>Volunteer</h3>
+                    <p>
+                        Want to volunteer alongside Rotary Club of Redmond members, in fun and worthwhile
+                        projects that satisfy your passions and make a difference?
+                    </p>
+                    <p class="contact__email"><a href="mailto:volunteers@rrcfoundation.org">volunteers@rrcfoundation.org</a></p>
+                </div>
+                <div>
+                    <h3>Get Information</h3>
+                    <p>
+                        Do you have questions or just want more information about our Foundation?
+                        We&rsquo;d love to hear from you.
+                    </p>
+                    <p class="contact__email"><a href="mailto:information@rrcfoundation.org">information@rrcfoundation.org</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
