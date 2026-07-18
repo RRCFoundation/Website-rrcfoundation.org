@@ -21,11 +21,10 @@
         <header class="site-header">
             <div class="wrap site-header__bar">
                 <a class="brand" href="./">
-                    <span class="brand__wheel" aria-hidden="true"></span>
-                    <span class="brand__text">
-                        <span class="brand__name">Redmond Rotary Club Foundation</span>
-                        <span class="brand__tag">Service Above Self &mdash; Redmond, WA</span>
+                    <span class="brand__logo-plate">
+                        <img class="brand__logo" src="RedmondRotaryClubFoundation-Logo-Transparent.png" alt="Redmond Rotary Club Foundation" />
                     </span>
+                    <span class="brand__tag">Service Above Self &mdash; Redmond, WA</span>
                 </a>
                 <nav class="site-nav" aria-label="Primary">
                     <a href="#about">About</a>
@@ -45,8 +44,9 @@
         <footer class="site-footer">
             <div class="wrap site-footer__grid">
                 <div>
-                    <span class="brand__wheel brand__wheel--footer" aria-hidden="true"></span>
-                    <p class="site-footer__org">Redmond Rotary Club Foundation</p>
+                    <span class="brand__logo-plate brand__logo-plate--footer">
+                        <img class="brand__logo brand__logo--footer" src="RedmondRotaryClubFoundation-Logo-Transparent.png" alt="Redmond Rotary Club Foundation" />
+                    </span>
                     <p>A 501(c)(3) nonprofit organization owned by the <a href="https://redmondrotary.org" target="_blank" rel="noopener">Rotary Club of Redmond</a>.</p>
                 </div>
                 <div>

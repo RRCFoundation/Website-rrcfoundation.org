@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="*.aspx;*.master;*.html;*.css">
+    <Content Include="*.aspx;*.master;*.html;*.css;*.png;*.jpg;*.svg;*.ico">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
   </ItemGroup>
