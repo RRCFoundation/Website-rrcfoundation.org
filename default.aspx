@@ -5,12 +5,12 @@
     <section class="hero">
         <div class="wrap hero__inner">
             <p class="eyebrow">501(c)(3) Nonprofit &bull; Redmond, Washington</p>
-            <h1>Small board. No paid staff.<br />Big impact for Redmond &mdash; and beyond.</h1>
+            <h1>Impact for Redmond and the World.</h1>
             <p class="hero__lede">
-                The Redmond Rotary Club Foundation funds grants, scholarships, and hands-on service
-                projects that align with Rotary International&rsquo;s areas of focus. Because every hour
-                of work is volunteered by members of the <a href="https://redmondrotary.org" target="_blank" rel="noopener">Rotary Club of Redmond</a>
-                and other community volunteers, nearly every dollar donated goes straight to the causes it was raised for.
+                The 501(c)(3) Redmond Rotary Club Foundation funds grants, scholarships, investments,
+                and organizes volunteer activities that align with Rotary International&rsquo;s areas of focus. Because work
+                is volunteered by members of the <a href="https://redmondrotary.org" target="_blank" rel="noopener">Rotary Club of Redmond</a>
+                and other community volunteers, nearly all money raised and donated goes straight to the causes it was raised and donated for.
             </p>
             <div class="hero__actions">
                 <a class="btn btn--gold btn--lg" href="#donate">Donate Now</a>
@@ -21,17 +21,17 @@
 
     <section id="about" class="section">
         <div class="wrap">
-            <h2><span class="section__kicker">About the Foundation</span>Owned by Rotarians. Built for Redmond.</h2>
+            <h2><span class="section__kicker">About the Foundation</span>Owned and Stewarded by Rotarians.</h2>
             <div class="grid-2">
                 <p>
                     The Redmond Rotary Club Foundation is a 501(c)(3) charitable organization owned by the
                     Rotary Club of Redmond. It exists to organize and fund the grants, scholarships, and
-                    service projects that carry out the club&rsquo;s motto of <em>Service Above Self</em> &mdash;
+                    service projects that carry out the Rotary&rsquo;s motto of <em>Service Above Self</em> and its Seven Areas of Focus &mdash;
                     both locally in Redmond, WA and internationally.
                 </p>
                 <p>
                     The Foundation has no paid staff. Every project, fundraiser, and dollar raised is handled
-                    entirely by volunteers &mdash; members of the Rotary Club of Redmond and other community
+                    entirely by volunteers &mdash; members of the Rotary Club of Redmond and other responsible community
                     members who donate their time. That keeps overhead minimal, so a high percentage of every
                     dollar donated or raised goes directly to good causes, rather than to administration.
                 </p>
@@ -46,13 +46,13 @@
                 Grants and scholarships are chosen to align with some of Rotary International&rsquo;s seven areas of focus:
             </p>
             <ul class="focus-grid">
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Peace &amp; Conflict Prevention</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Disease Prevention &amp; Treatment</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Water, Sanitation &amp; Hygiene</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Maternal &amp; Child Health</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Basic Education &amp; Literacy</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Community Economic Development</li>
-                <li><span class="focus-grid__icon" aria-hidden="true">&#9899;</span>Environment</li>
+                <li><img class="focus-grid__icon" src="AOF_peace_color_no_title.png" alt="" />Peace &amp; Conflict Prevention</li>
+                <li><img class="focus-grid__icon" src="AOF_disease_color_no_title.png" alt="" />Disease Prevention &amp; Treatment</li>
+                <li><img class="focus-grid__icon" src="AOF_water_color_no_title.png" alt="" />Water, Sanitation &amp; Hygiene</li>
+                <li><img class="focus-grid__icon" src="AOF_maternal_color_no_title.png" alt="" />Maternal &amp; Child Health</li>
+                <li><img class="focus-grid__icon" src="AOF_education_color_no_title.png" alt="" />Basic Education &amp; Literacy</li>
+                <li><img class="focus-grid__icon" src="AOF_economic_color_no_title.png" alt="" />Community Economic Development</li>
+                <li><img class="focus-grid__icon" src="AOF_environment_color_no_title.png" alt="" />Environment</li>
             </ul>
         </div>
     </section>
